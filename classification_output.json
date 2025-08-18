@@ -1,0 +1,187 @@
+{
+  "classification_report": {
+    "ECO_AVANZADO": {
+      "precision": 0.5555555555555556,
+      "recall": 0.5,
+      "f1-score": 0.5263157894736842,
+      "support": 10.0
+    },
+    "ECO_EXPERTO": {
+      "precision": 0.25,
+      "recall": 0.09090909090909091,
+      "f1-score": 0.13333333333333333,
+      "support": 11.0
+    },
+    "ECO_PRINCIPIANTE": {
+      "precision": 0.23529411764705882,
+      "recall": 0.4444444444444444,
+      "f1-score": 0.3076923076923077,
+      "support": 9.0
+    },
+    "accuracy": 0.3333333333333333,
+    "macro avg": {
+      "precision": 0.34694989106753815,
+      "recall": 0.34511784511784516,
+      "f1-score": 0.32244714349977505,
+      "support": 30.0
+    },
+    "weighted avg": {
+      "precision": 0.34744008714596947,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.31663517768780924,
+      "support": 30.0
+    }
+  },
+  "predictions": [
+    {
+      "userId": "2a37c6b4-5f78-448b-91d4-ae7d86c014a3",
+      "realProfile": "ECO_EXPERTO",
+      "predictedProfile": "ECO_PRINCIPIANTE"
+    },
+    {
+      "userId": "dc52d013-ebc6-41d2-9e61-e955dfa73832",
+      "realProfile": "ECO_EXPERTO",
+      "predictedProfile": "ECO_PRINCIPIANTE"
+    },
+    {
+      "userId": "7d382649-5c6a-4b86-a941-eee8373e7e37",
+      "realProfile": "ECO_PRINCIPIANTE",
+      "predictedProfile": "ECO_PRINCIPIANTE"
+    },
+    {
+      "userId": "ffbefed1-7883-4ff3-9663-873e2f3523d8",
+      "realProfile": "ECO_PRINCIPIANTE",
+      "predictedProfile": "ECO_AVANZADO"
+    },
+    {
+      "userId": "146455a8-9108-4573-b07e-112230b46a64",
+      "realProfile": "ECO_EXPERTO",
+      "predictedProfile": "ECO_PRINCIPIANTE"
+    },
+    {
+      "userId": "cc114cdd-3100-4a02-b02b-0fb66a5002e4",
+      "realProfile": "ECO_AVANZADO",
+      "predictedProfile": "ECO_PRINCIPIANTE"
+    },
+    {
+      "userId": "a2aebe09-baa9-4ce6-8dfe-42f8e67149f7",
+      "realProfile": "ECO_EXPERTO",
+      "predictedProfile": "ECO_EXPERTO"
+    },
+    {
+      "userId": "090abdf7-69a6-4a1c-b5f7-43e0dbedd16c",
+      "realProfile": "ECO_AVANZADO",
+      "predictedProfile": "ECO_PRINCIPIANTE"
+    },
+    {
+      "userId": "348859f3-1a1b-4271-afba-d9c4ced20677",
+      "realProfile": "ECO_PRINCIPIANTE",
+      "predictedProfile": "ECO_PRINCIPIANTE"
+    },
+    {
+      "userId": "11f16c31-6440-41ee-8de8-45994231c1b1",
+      "realProfile": "ECO_PRINCIPIANTE",
+      "predictedProfile": "ECO_AVANZADO"
+    },
+    {
+      "userId": "7c694e61-7593-4915-9313-19faf7c25ce8",
+      "realProfile": "ECO_EXPERTO",
+      "predictedProfile": "ECO_PRINCIPIANTE"
+    },
+    {
+      "userId": "80ba1c5d-5853-4805-af7b-948a86336c85",
+      "realProfile": "ECO_PRINCIPIANTE",
+      "predictedProfile": "ECO_AVANZADO"
+    },
+    {
+      "userId": "2a9c0b7d-cfba-4b4f-b4b0-86ce8ff0549b",
+      "realProfile": "ECO_AVANZADO",
+      "predictedProfile": "ECO_AVANZADO"
+    },
+    {
+      "userId": "5787a18e-0468-4b0d-ad49-a6ff0e7a2a5e",
+      "realProfile": "ECO_EXPERTO",
+      "predictedProfile": "ECO_PRINCIPIANTE"
+    },
+    {
+      "userId": "450f776b-f333-45b6-9fa9-01ea966b2650",
+      "realProfile": "ECO_AVANZADO",
+      "predictedProfile": "ECO_PRINCIPIANTE"
+    },
+    {
+      "userId": "d9816c90-2dbe-4145-89bc-dee429826d66",
+      "realProfile": "ECO_AVANZADO",
+      "predictedProfile": "ECO_AVANZADO"
+    },
+    {
+      "userId": "2cc9cf09-964f-441e-8751-d8969ccb2764",
+      "realProfile": "ECO_EXPERTO",
+      "predictedProfile": "ECO_AVANZADO"
+    },
+    {
+      "userId": "eebd6522-8c92-4b75-b2ac-117888f45c07",
+      "realProfile": "ECO_PRINCIPIANTE",
+      "predictedProfile": "ECO_EXPERTO"
+    },
+    {
+      "userId": "31fbf48b-2c1d-442f-b7fb-9bd4bc7228f2",
+      "realProfile": "ECO_EXPERTO",
+      "predictedProfile": "ECO_PRINCIPIANTE"
+    },
+    {
+      "userId": "addb7aff-6ce8-4f1d-93bb-973339eb84cb",
+      "realProfile": "ECO_AVANZADO",
+      "predictedProfile": "ECO_PRINCIPIANTE"
+    },
+    {
+      "userId": "f173ce5a-db72-4470-822f-23dfd80f69a2",
+      "realProfile": "ECO_AVANZADO",
+      "predictedProfile": "ECO_AVANZADO"
+    },
+    {
+      "userId": "c805a7fe-c3be-450f-96e7-b70e966a4d95",
+      "realProfile": "ECO_AVANZADO",
+      "predictedProfile": "ECO_AVANZADO"
+    },
+    {
+      "userId": "76a664a4-f686-4144-ab24-b73c5e1db0d1",
+      "realProfile": "ECO_AVANZADO",
+      "predictedProfile": "ECO_EXPERTO"
+    },
+    {
+      "userId": "2e88c7a5-a7ec-4f96-942e-040432c4096e",
+      "realProfile": "ECO_AVANZADO",
+      "predictedProfile": "ECO_AVANZADO"
+    },
+    {
+      "userId": "19d79485-3c03-4bc5-be76-8d53d577bec8",
+      "realProfile": "ECO_PRINCIPIANTE",
+      "predictedProfile": "ECO_EXPERTO"
+    },
+    {
+      "userId": "6c586ea7-283d-4f72-95af-90917d213646",
+      "realProfile": "ECO_EXPERTO",
+      "predictedProfile": "ECO_PRINCIPIANTE"
+    },
+    {
+      "userId": "3021c1cd-8e20-4a6e-a64f-97bbd933c5a1",
+      "realProfile": "ECO_PRINCIPIANTE",
+      "predictedProfile": "ECO_PRINCIPIANTE"
+    },
+    {
+      "userId": "67bb89ad-20d6-4085-ad7f-f2d2bbfec157",
+      "realProfile": "ECO_PRINCIPIANTE",
+      "predictedProfile": "ECO_PRINCIPIANTE"
+    },
+    {
+      "userId": "3cb168c8-0a31-40b4-bb74-1221658cd6be",
+      "realProfile": "ECO_EXPERTO",
+      "predictedProfile": "ECO_PRINCIPIANTE"
+    },
+    {
+      "userId": "f9d7941a-a236-41c3-a248-bc1443744b90",
+      "realProfile": "ECO_EXPERTO",
+      "predictedProfile": "ECO_PRINCIPIANTE"
+    }
+  ]
+}

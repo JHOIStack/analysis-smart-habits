@@ -78,8 +78,24 @@ def build_dataset(include_profiles=False):
 
     if include_profiles:
         df_profiles = get_profiles()
-        df = df.merge(df_profiles, left_on="id", right_on="userId", how="left")
+        df = df.merge(
+            df_profiles,
+            left_on="id",
+            right_on="userId",
+            how="left",
+            suffixes=("", "_profile")
+        )
 
-    df = df.drop(columns=["userId"])
+    if "userId" in df.columns:
+        df = df.drop(columns=["userId"])
+
     df = df.fillna(0)
+
+    import enum
+    df = df.apply(
+        lambda col: col.astype(str)
+        if col.dtype.name == "category" or isinstance(col.iloc[0], enum.Enum)
+        else col
+    )
+
     return df

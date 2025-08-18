@@ -11,6 +11,8 @@ def classify_profiles():
     df = df.dropna(subset=["profileType"])
     
     X = df.select_dtypes(include=["int64", "float64"])
+    X.columns = X.columns.astype(str)  # 👈 fuerza todo a string
+
     y = df["profileType"]
 
     le = LabelEncoder()
